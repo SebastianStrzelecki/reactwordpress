@@ -1,0 +1,23 @@
+.contact{
+    .title{
+        color:$base-color;
+    }
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+.contactbg{
+        background-image: url(http://ss.valkea.com/wp-content/uploads/2018/12/Kontakt2__1544437689.jpg?id=3331) !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        padding: 40px;
+   .contactbg-title{
+       color:#fff;
+   } 
+   .contactbg-container{
+    color:#fff;
+   }   
+}

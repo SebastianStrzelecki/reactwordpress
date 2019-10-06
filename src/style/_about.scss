@@ -1,0 +1,33 @@
+.about{
+    color:$base-color;
+    text-align: center;
+    background-color: #ebebeb;
+    padding:40px 0 80px 0;
+    margin-bottom: 4rem;
+    &:before{
+        content:'';
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        -webkit-transform: translateX(-50%) rotate(45deg);
+        transform: translateX(-50%) rotate(45deg);
+    }
+    .about-wrapper{
+        width: 30%;
+        margin: auto;
+        .about-wrapper__title{
+            margin-bottom: 2.5rem;
+        }
+        .about-wrapper__text{
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+            letter-spacing: 0.5px;
+        }
+    }
+
+}
+.counter{
+    text-align: center;
+    color:$base-color;
+    
+}

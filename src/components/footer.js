@@ -10,7 +10,9 @@ ul. Rogowska 8<br/>
 </address>
  
 
+<a href="http://www.piekarniagoszczynski.pl/wp-content/uploads/2019/01/POLITYKA-PRYWATNOŚCI-www.piekarniagoszczynski.pl_.pdf">
 Polityka prywatności
+    </a>   
     </footer>
 )
 

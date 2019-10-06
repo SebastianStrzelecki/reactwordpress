@@ -1,0 +1,35 @@
+.header-address{
+    font-size:0.8rem;
+    color:$base-color;
+    text-align: right;
+}
+.navbar{
+    background-color: inherit;
+    .nav-item{
+        a{
+            color:$base-color;
+            text-transform: uppercase;
+            margin-left: 15px;
+            &:hover{
+                text-decoration: none;
+                color:$hover-color;
+            }
+        }
+    }
+}
+.slider{
+   background-image: urL("http://www.piekarniagoszczynski.pl/wp-content/uploads/2018/12/StronaGlowna__1544436840.jpg");
+   background-position: center;
+   background-repeat: none;
+   background-size: cover;
+   height: 60vh;
+   margin-top: -200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   .title{
+       color:$base-color;
+       font-size:3rem;
+       margin-left: 60px;
+   }
+}
