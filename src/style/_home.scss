@@ -1,0 +1,42 @@
+.about-us{ 
+    @include block;
+    .about-text{
+       @include text-block;
+    }
+    .link{
+        @include link;
+    }
+}
+.head{
+    text-align: center;
+    color:$base-color;
+    margin-top:4rem;
+}
+.products-wrapper{
+    @include block;
+    .product-text{
+        @include text-block;
+    }
+    .product-link{
+        @include link;
+    }
+}
+.single{
+    text-align: center;
+    margin-top:4rem;
+}
+.counter{
+    background-color: $base-color;
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    margin:4rem 0;
+    padding:3rem 0;
+    .counter-items{
+        padding:0 30px;
+        .counter-value{
+            font-family: $base-font;
+            font-size: 1.75rem;
+        }
+    }
+}
