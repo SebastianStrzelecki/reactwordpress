@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap'
 import Layout from '../components/layout'
 
 const About = () => (
-    <Layout>
+    <Layout section={true}>
     <Container fluid={true}>
         <Row>
             <Col xs={12}>
@@ -21,6 +21,7 @@ const About = () => (
                 </p>
                 </div>
             </section>
+            <div className="separator"></div>
             </Col>
         </Row>
         </Container>
@@ -47,8 +48,8 @@ export default About
 
 const Counter = ({title, text}) => (
     <Col>
-        <div class="counter">
-            <h2 class="counter-title">{title}</h2>
+        <div className="counter-about">
+            <h2 className="counter-title">{title}</h2>
             <p>{text}</p>
         </div>
     </Col>

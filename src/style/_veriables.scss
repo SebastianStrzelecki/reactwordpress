@@ -1,4 +1,28 @@
 $base-color: #0e4e49;
 $hover-color: #111111;
-$base-font: 'Playfair Display', serif;
-$base-font-p: 'Open Sans', serif;
+$base-font: 'Playfair Display Regular', serif;
+$base-font-p: 'Open Sans Regular', serif;
+$header-font: 'Nothing You Could Do', cursive;
+
+@mixin block {
+    background-color:$base-color;
+    color:#fff;
+    text-align: center;
+    padding: 50px 0;
+  }
+  @mixin text-block {
+    width: 60%;
+    margin: auto;
+    padding:30px 0;
+  }
+  @mixin link {
+    color:#fff;
+    border:1px solid #fff;
+    padding:9px 13px;
+    border-radius: 20px;
+    &:hover,&:focus{
+        color:$base-color;
+        background-color: #fff;
+        text-align: none;
+    }
+  }

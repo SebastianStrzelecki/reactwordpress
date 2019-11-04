@@ -7,6 +7,17 @@
         @include link;
     }
 }
+.quotation-block{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    .imageWrapper{
+        text-align: right;
+    }
+    .text-block{
+        color:$base-color;
+        text-align: center;
+    }
+}
 .head{
     text-align: center;
     color:$base-color;

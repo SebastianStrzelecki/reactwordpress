@@ -62,7 +62,7 @@ const Shop = ({title,tel=false, weekend="8:30-22:00", sat="Nieczynne", sun="Niec
         <Col xs={4}>
         <div className="shop">
             <h2 className="shop-title">{title}</h2>
-            <div class="shop-info">
+            <div className="shop-info">
                {tel ? <p><strong>Tel:</strong> {tel}</p> : null}
                 <h3 className="shop-info__opening">Godziny Otwarcia</h3>
                 <p>Pon-Pt: {weekend}</p>

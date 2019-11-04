@@ -2,13 +2,13 @@ import React from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-export default class Map extends React.Component{
+export default class MapLeaflet extends React.Component{
 
-    componentDidUpdate(){
+    componentDidMount(){
         this.map = L.map('map',{
-            center:[58,16],
-            zoom: 6
-        })
+            zoom: 11
+        }).setView([52.2481333, 21.0191138], 11);
+
         L.tileLayer('',{
             detectRetina:true,
             maxZoom:20,
@@ -19,6 +19,6 @@ export default class Map extends React.Component{
     
 
     render(){
-        return <div id="map" style={{width:500, height:500}}>sf</div>
+        return <div id="map" style={{width:"100%", height:500}}></div>
     }
 }

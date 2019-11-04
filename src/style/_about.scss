@@ -3,7 +3,6 @@
     text-align: center;
     background-color: #ebebeb;
     padding:40px 0 80px 0;
-    margin-bottom: 4rem;
     &:before{
         content:'';
         left: 50%;
@@ -26,7 +25,31 @@
     }
 
 }
-.counter{
+.separator{
+    position:relative;
+    width:100%;
+    margin-bottom: 4rem;
+    &::before{
+        background-color: #ebebeb;
+        right: 50%;
+        height: 40px !important;
+        border-radius: 0 0 40px 0;
+        content: '';
+        position: absolute;
+        width: 50%;
+    }
+    &::after{
+        background-color: #ebebeb;
+        left: 50%;
+        height: 40px !important;
+        border-radius: 0 0 40px 0;
+        content: '';
+        position: absolute;
+        width: 50%;
+        border-radius: 0 0 0 40px;
+    }
+}
+.counter-about{
     text-align: center;
     color:$base-color;
     
