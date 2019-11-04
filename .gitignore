@@ -4,6 +4,9 @@
 
 
 /node-modules/
+/.cache
+/.cache/
+.cache/
 test.js
 # ignore a file type
 *.json
