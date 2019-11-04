@@ -13,6 +13,34 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
+    },
+    {
+      resolve: 'gatsby-source-wordpress',
+      options:{
+        baseUrl: "kursor18.ssd-linuxpl.com/wp-api/",
+        protocol: `http`,
+        hostingWPCOM: false,
+        useACF: false
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Open Sans','Playfair Display','Nothing You Could Do']
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
